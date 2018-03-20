@@ -14,9 +14,9 @@ import numpy as np
 from collections import deque
 
 import json
-from keras import initializations
-from keras.initializations import normal, identity
-from keras.models import model_from_json
+# from keras import initializations
+# from keras.initializations import normal, identity
+# from keras.models import model_from_json
 from keras.models import Sequential
 from keras.layers.core import Dense, Dropout, Activation, Flatten
 from keras.layers.convolutional import Convolution2D, MaxPooling2D
